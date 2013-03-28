@@ -1,0 +1,31 @@
+Parse the text, "The Tale of Peter Rabbit" by Beatrix Potter for the following words, counting their occurance. Then visualize the data in some interesting way. Go beyond a simple bar graph. You can find the text at http://www.gutenberg.org/cache/epub/14838/pg14838.txt Note that the text has more in it, than the simple story. You don't want to be parsing the text outside of the story. 
+
+Possible POA:
+
+- load the text
+- get rid of unnecessary tokens
+- Look at the text to find the first word and the last
+- find the end of the substring
+- find the index of the substring
+- make a substring between start and end
+- look for various words
+- count them
+- visualize them
+
+Tools:
+
+indexOf()
+substring()
+join()
+split()
+splitTokens()
+arrays
+for loops
+
+Words to visualize:
+- bunny
+- rabbit
+- Peter
+- MCGregor
+- Mother
+- Jacket
